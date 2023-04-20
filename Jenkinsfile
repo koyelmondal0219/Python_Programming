@@ -15,7 +15,7 @@ pipeline {
 
     stage('deploy') {
       steps {
-        sh './mvnw clean compile'
+        echo 'I am deployed..'
       }
     }
 
