@@ -15,7 +15,7 @@ pipeline {
 
     stage('deploy') {
       steps {
-        sh '.mvn clean'
+        sh './mvnw clean compile'
       }
     }
 
